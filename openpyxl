@@ -1,0 +1,4 @@
+from openpyxl import load_workbook
+
+wb = load_workbook("Control_Gimnasio_Pagos.xlsx")
+ws = wb["Clientes"]  # usa el nombre real de tu hoja
